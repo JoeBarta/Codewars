@@ -9,8 +9,5 @@
 
 function disemvowel(str) {
 	const regex = /[aeiouAEIOU]/;
-	return str
-		.split('')
-		.filter(char => !char.match(regex))
-		.join('');
+	return str.split('').filter(char => !char.match(regex)).join('');
 }

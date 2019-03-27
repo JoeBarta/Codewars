@@ -4,10 +4,7 @@
 
 // original
 function squareDigits(num) {
-	let arr = num
-		.toString()
-		.split('')
-		.map(x => parseInt(x, 10));
+	let arr = num.toString().split('').map(x => parseInt(x, 10));
 	let newArr = arr.map(x => Math.pow(x, 2)).join('');
 	return parseInt(newArr, 10);
 }
@@ -15,10 +12,6 @@ function squareDigits(num) {
 // refactor
 function squareDigits(num) {
 	return Number(
-		num
-			.toString()
-			.split('')
-			.map(x => x * x)
-			.join('')
+		num.toString().split('').map(x => x * x).join('')
 	);
 }

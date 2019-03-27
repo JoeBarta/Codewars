@@ -10,11 +10,7 @@ function persistence(num) {
 	// keep running until less than 1 char
 	while (num.length > 1) {
 		result++;
-		num = num
-			.split('')
-			.map(Number)
-			.reduce((a, b) => a * b)
-			.toString();
+		num = num.split('').map(Number).reduce((a, b) => a * b).toString();
 	}
 	return result;
 }

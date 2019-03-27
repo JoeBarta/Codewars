@@ -5,8 +5,4 @@ function anagrams(word, words) {
 	return words.filter(x => cleanString(word) === cleanString(x));
 }
 
-const cleanString = cb =>
-	cb
-		.split('')
-		.sort()
-		.join('');
+const cleanString = cb => cb.split('').sort().join('');
