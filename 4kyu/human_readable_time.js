@@ -7,6 +7,9 @@
 // formatDuration(62)    // returns "1 minute and 2 seconds"
 // formatDuration(3662)  // returns "1 hour, 1 minute and 2 seconds"
 
+// ***** UNFINISHED ***** NOTES ******
+// - PASSED Original set of tests.
+// As I tend to TDD, example test were missing days years .. so TODO 
 function formatDuration (seconds) {
   if (seconds === 0) return 'now'
   
@@ -15,10 +18,8 @@ function formatDuration (seconds) {
   const sec = Math.floor(seconds % 60)
   const min = Math.floor(minutes % 60)
   const hr = Math.floor(minutes / 60)
-  const days = Math.floor(hr * 24)
-  const years = Math.floor(days * 365)
   
-  const eligible = [sec, min, hr, days, years].map(time => time !== 0 ? time : null)
+  const eligible = [sec, min, hr].map(time => time !== 0 ? time : null)
   console.log(eligible)
   
   
