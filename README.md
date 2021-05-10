@@ -4,7 +4,8 @@ Codewars Kata's
 
 _Katas in this case are coding questions/challenges._
 
-## Difficulty ranking are by _kyu's_ - (1 kyu being the most difficult, 8 kyu being the easiest)
+## Difficulty ranking are by _kyu's_ - 
+>(1 kyu being the most difficult, 8 kyu being the easiest)
 
 _edge-casey stuff is ignored if not required_
 
