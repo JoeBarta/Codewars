@@ -12,6 +12,7 @@ _edge-casey stuff is ignored if not required_
 
 Example of recent and more interesting challenges:
 
+- [Flatten - (5 kyu)](https://github.com/JoeBarta/Codewars/blob/master/5kyu/flatten.js)
 - [Two Sum - (6 kyu)](https://github.com/JoeBarta/Codewars/commit/493161dac812090ae6a5061498cab05861a204dd)
 - [Binary Tree Max Sum - (6 kyu)](https://github.com/JoeBarta/Codewars/commit/b858ec743b08859a98d594f99a99c9d88a611991)
 - [Pascals Triangle - (6 kyu)](https://github.com/JoeBarta/Codewars/commit/694873a5830a863f4fa12624bf87ed727751c480)
